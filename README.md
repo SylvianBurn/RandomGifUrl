@@ -2,13 +2,9 @@ In order to use this file, you will need to install python on your computer.
 Once python is installed, run:
 ```
 pip install flask
-```
-in your command interpreter to download the flask module.
-Then run:
-```
 pip install Faker
 ```
-to download Faker module.
+in your command interpreter to download the modules.
 
 Now that the required modules are installed, navigate to this repository and set the flask app in the environment.
 To do so, run:
