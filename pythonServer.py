@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def hello_world():
-    response = "Hello World !"
+    response = "Add /random to the route to get a new identity and a random GIF from giphy.com"
     return response
 
 @app.route("/random", methods=["GET"])
